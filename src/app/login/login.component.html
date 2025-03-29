@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side: Login Form -->
+        <div class="login-box">
+     <!--        <form [formGroup]="formLogueo"> -->
+            <h2>LOGIN</h2>
+            <label>Usuario</label>
+            <input matInput type="text" id="username" required formControlName="usuario" placeholder="Ingrese su Usuario...">
+            <label>Contraseña</label>
+            <input matInput type="password" id="password" required formControlName="password" placeholder="Ingrese su contraseña...">
+        <!--     </form> -->
+            <button id="loginBtn">Ingresar</button>
+        </div>
+        
+   
+        <div class="welcome-box">
+            <h2>Predicción Bitcoin</h2>
+        </div>
+    </div>
+</body>
+</html>
+
